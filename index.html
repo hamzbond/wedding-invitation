@@ -109,7 +109,6 @@
         </div>
         <!-- Start Countdown -->
         <div>
-          <p id="demo"></p>
           <ul id="hitungmundur">
             <li><span class="days">00</span>
               <p class="days_text">Hari</p>
@@ -138,8 +137,6 @@
             var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
             var harih = '03/21/2023 17:00:00';
             // TODO: ambil value tanggal, insert ke variabel harih
-            console.log(document.getElementsByClassName("year")[0].value)
-            console.log(document.getElementsByClassName("month"))
 
             $('#hitungmundur').countdown({
               date: harih, // TODO Date format: 07/27/2017 17:00:00
@@ -295,9 +292,10 @@
           </p>
         </div>
         <div class="section-map" data-aos="fade-up" data-aos-easing="linear">
-          <iframe id="framepoint"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1280267408406!2d106.9691569150978!3d-6.246854895478259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d5988a190d9%3A0x22b6a052b0a6a5f3!2sRM.%20Pondok%20Kenanga!5e0!3m2!1sen!2sid!4v1579433583123!5m2!1sen!2sid"
-            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          <iframe id="framepoint" scrolling="no" marginheight="0" marginwidth="0"
+            src=""
+            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="">
+          </iframe>
         </div>
         <div class="space40px"></div>
         <div class="has-text-centered" data-aos="fade-up" data-aos-easing="linear">
@@ -328,7 +326,7 @@
                     <div class="content">
                       <p class="title-foto">November 2018</p>
                       <p class="subtitle-foto">
-                        Pertama kali saling kenal di <a href="https://cashbac.com" target="_blank">Cashbac</a>
+                        Pertama kali saling kenal di 
                       </p>
                     </div>
                   </article>
@@ -473,12 +471,12 @@
       <a href="https://github.com/hamzbond/daeng-sherly-menikah" class="has-vertically-align">
         <p class="has-vertically-align">2022 &copy Achmad Hamzah</p>
       </a>
-      <!-- <a href="https://bulma.io" class="has-vertically-align">
-          <img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma">
-        </a>
-        <a href="https://www.netlify.com">
-          <img src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg" alt="Deploy with Netlify"/>
-        </a> -->
+      <a href="https://bulma.io" class="has-vertically-align">
+        <img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma">
+      </a>
+      <!-- <a href="https://www.netlify.com">
+        <img src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg" alt="Deploy with Netlify" />
+      </a> -->
     </div>
   </div>
   <!-- End Footer -->

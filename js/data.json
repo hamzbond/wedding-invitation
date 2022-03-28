@@ -1,5 +1,5 @@
 {
-    "tanggal": "19/01/2023 17:00:00",
+    "tanggal": "19/04/2022 17:00:00",
     "resepsi": "19.00  - 21.00 WIB",
     "alamat": [
         {
@@ -12,6 +12,7 @@
         }
     ],
     "map_point": "https://www.google.com/maps/place/Mie+Gacoan+Gresik/@-7.1695797,112.6510204,15.17z/data=!4m5!3m4!1s0x2dd80145e3becf67:0x4a74b99961c50068!8m2!3d-7.1690855!4d112.654336?hl=en",
+    "iframe_src": "https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1smie+gacoan+gresik!6i14!3m1!1sen!5m1!1sen",
     "calendar": "",
     "pria": [
         {
